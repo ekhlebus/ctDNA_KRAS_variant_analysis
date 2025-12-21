@@ -1,0 +1,20 @@
+name: ctdna-analysis
+channels:
+  - bioconda
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - jupyterlab
+  - pandas
+  - numpy
+  - matplotlib
+  - seaborn
+  - fastqc
+  - bwa
+  - samtools
+  - bcftools
+  - gatk4
+  - bedtools
+  - htslib
+  - snpeff

@@ -7,6 +7,8 @@ This repository contains a reproducible bioinformatics workflow for analyzing ci
 Raw sequencing data were obtained from NCBI BioProject **PRJNA714799**.  
 The analysis focuses on targeted sequencing of a clinically relevant gene (**KRAS**) and compares variant profiles **pre-treatment vs during/post-treatment**.
 
+Why ctDNA? Short Half-Life: ctDNA is cleared from the blood quickly (hours), making its levels highly responsive to changes in the tumor. Analysis of the plasma circulating tumor DNA (ctDNA) is a **non-invasive** alternative to classical tissue-based analysis for tumor specific genetic alterationsю
+
 ---
 
 ## Scientific Question
