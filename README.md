@@ -111,6 +111,10 @@ Align reads to the human reference genome GRCh38, prepare analysis-ready BAM fil
 - BWA-MEM
 - SAMtools
 
+NCBI Genome Assembly — GRCh38 can be downloaded from [NCBI Datasets](https://www.ncbi.nlm.nih.gov/assembly/GCF_000001405.40/)
+
+Also, reference human genome GRCh38 and correcponding indexes can be downloaded from [here](https://gdc.cancer.gov/about-data/gdc-data-processing/gdc-reference-files?utm_source=chatgpt.com).
+
 ### Commands
 ```bash
 bwa mem -t 8 GRCh38.fa sample_R1.fastq.gz sample_R2.fastq.gz | samtools sort -o sample.sorted.bam
