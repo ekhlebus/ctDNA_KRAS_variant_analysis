@@ -70,16 +70,6 @@ df.head()
 ⚠️ **Important inconsistency**  
 Supplementary Table 1 in the paper defines samples as CTDC01, CTDC01-2, CTDC01-5, etc., corresponding to baseline, response, and progression. These sample IDs do not appear directly in the SRA RunInfo table, requiring additional exploration of metadata fields or author clarification.
 
-```python
-# Create new column with names unique for each patient
-df['SampleBase'] = df['SampleName'].str.split('-').str[0]
-print(df[['SampleName', 'SampleBase']].head(8))
-
-# Select one patient with multiple timepoints and display SRR IDs
-df_patient = df[df['SampleBase'] == 'CTC325']
-df_patient[['Run', 'SampleName', 'SampleBase']]
-```
-
 Example SRR IDs for the selected patient:
 - SRR13974041
 - SRR13974040
@@ -135,7 +125,7 @@ samtools flagstat sample.sorted.bam
 Call somatic variants with high sensitivity to low allele fractions.
 
 ### Tools
-- VarScan2 ((well suited for this task because it is explicitly designed to detect low-frequency variants, common in ctDNA))
+- VarScan2 (well suited for this task because it is explicitly designed to detect low-frequency variants, common in ctDNA)
 - SAMtools
 
 ```bash
