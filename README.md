@@ -110,7 +110,7 @@ multiqc qc/ -o qc_summary/
 
 ### Output
 - Individual FastQC reports (.html)
-- [Combined MultiQC report]()
+- [Combined MultiQC report](https://github.com/ekhlebus/ctDNA_KRAS_variant_analysis/blob/main/results/multiqc_report.html)
 
 ---
 
