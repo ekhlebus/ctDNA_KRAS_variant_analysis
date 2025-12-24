@@ -1,6 +1,5 @@
 # Targeted ctDNA Variant Analysis in Metastatic Colorectal Cancer
 
-## Project overview
 This repository contains a proposed bioinformatics workflow for analyzing circulating tumor DNA (ctDNA) sequencing data from a single metastatic colorectal cancer patient, based on the study:
 [Circulating tumor DNA sequencing in colorectal cancer patients treated with first-line chemotherapy with anti-EGFR](https://www.nature.com/articles/s41598-021-95345-4)
 
